@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "r2libreddit-auto-redirectorr",
-  "description": "^-^ Automatically Redirects reddit urls to libreddit. Someone please get reddit unblocked on NITK-NET.~Ut",
+  "name": "r2libreddit-auto-redirector",
+  "description": "^-^ Automatically Redirects reddit urls to libreddit. ~Ut",
   "version": "0.1",
   "permissions": ["tabs"],
   "background": {
