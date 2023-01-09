@@ -1,10 +1,26 @@
 {
-  "manifest_version": 3,
-  "name": "r2libreddit-auto-redirector",
-  "description": "^-^ Automatically Redirects reddit urls to libreddit. ~Ut",
-  "version": "0.1",
-  "permissions": ["tabs"],
-  "background": {
-    "service_worker": "func.js"
+    "manifest_version": 2,
+    "name": "Reddit 2 Frontends",
+    "version": "1.0",
+    "permissions": [
+      "http://*/*",
+      "https://*/*",
+      "webRequest",
+      "webRequestBlocking",
+      "storage"
+    ],
+    "icons": {
+        "128": "icon.png"
+      },
+    "web_accessible_resources": [
+        "icon.png",
+        "icon-disabled.png"
+      ],
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "browser_action": {
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+    }
   }
-}

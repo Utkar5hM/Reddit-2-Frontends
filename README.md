@@ -1,6 +1,7 @@
-# r2libreddit-auto-redirector
+# Reddit 2 Frontends
+Auto redirects reddit links to choice of your frontends . :)
 
-Auto redirects reddit links to libredd.it . :)
+Basically allows you to view reddit posts without having to use a vpn, etc.
 
 ---
 
@@ -25,7 +26,5 @@ Click on "Load unpacked":
 select the cloned repository's directory on your system and open it.
 
 The extension should be now at the top of the page:
-
-![Extension Loaded](assets/ext_loaded.png)
 
 ### Tada, It should start working. :)
